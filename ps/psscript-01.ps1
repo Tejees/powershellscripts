@@ -84,7 +84,6 @@ CloudlabsManualAgent Install
 InstallGitTools
 InstallAzCLI
 InstallVSCode
-InstallModernVmValidator
 
 #Install python
 choco install python --version=3.10
