@@ -91,7 +91,7 @@ sleep 60
 
 #Download LogonTask
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/Azure-AI-Foundry-Agents-GitHub/Day-1/scripts/logontask-03.ps1","C:\LabFiles\logontask-01.ps1")
+$WebClient.DownloadFile("https://raw.githubusercontent.com/Tejees/powershellscripts/refs/heads/main/ps/logontask-03.ps1","C:\LabFiles\logontask-01.ps1")
 
 #Enable Auto-Logon
 $AutoLogonRegPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
